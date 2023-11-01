@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
 
 # Stop the running container (if any)
-dockerid= docker ps | awk -F " " {print $1}
-docker rm -rf $dockerid
+docker rm -f d3f0f82c82bc
